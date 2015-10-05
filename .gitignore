@@ -1,0 +1,9 @@
+.project
+.settings
+bin/
+.idea/
+tests/
+local.properties
+*~
+*.pyc
+*.pyo
