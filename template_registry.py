@@ -107,7 +107,6 @@ class TemplateRegistry(object):
                 log.error("New template has invalid job_id (%s) - minimal %s" % \
                           (template.job_id, self.minimal_job_id))
                 return
-
             # Remember the job for the current block (prevhash)
             self.jobs[template.job_id] = template
 
@@ -234,7 +233,6 @@ class TemplateRegistry(object):
 
         # Now let's do the hard work!
         # ---------------------------
-
         # 0. Some sugar
         extranonce2_bin = binascii.unhexlify(extranonce2)
         ntime_bin = binascii.unhexlify(ntime)

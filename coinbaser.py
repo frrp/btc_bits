@@ -29,7 +29,6 @@ class SimpleCoinbaser(object):
 
             if not self.on_load.called:
                 self.on_load.callback(True)
-
         else:
             self.is_valid = False
             log.error("Coinbase address '%s' is NOT valid!" % self.address)

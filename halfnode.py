@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # Public Domain
 # Original author: ArtForz
-
 import struct
 import socket
 import binascii

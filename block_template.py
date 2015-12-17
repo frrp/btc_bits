@@ -132,11 +132,9 @@ class BlockTemplate(halfnode.CBlock):
 
         self.broadcast_args = self.build_broadcast_args()
 
-    # TODO: Proc Template drzi sadu sumbitnutych reseni????
     def register_submit(self, extranonce1, extranonce2, ntime, nonce):
         '''Client submitted some solution. Let's register it to
         prevent double submissions.'''
-
         t = (extranonce1, extranonce2, ntime, nonce)
         if t not in self.submits_hash_set:
             self.submits_hash_set.add(t)

@@ -102,3 +102,4 @@ class BitcoinRPC(object):
         resp = (yield factory.deferred)
         connector.transport = None
         defer.returnValue(json.loads(resp)['result'])
+
