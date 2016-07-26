@@ -2,3 +2,4 @@ BTC bits and pieces
 ===================
 
 This is a code involved in pooled bitcoin mining. It is not intended to be a standalone library or service, it is just a collection of interesting technical parts.
+Some more bitcoin pooled mining: https://github.com/frrp/bitcoin-mining-pool
